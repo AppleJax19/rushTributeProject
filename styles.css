@@ -1,0 +1,84 @@
+body {
+  background: url('http://www.metalinjection.net/wp-content/uploads/2015/04/rush.jpg') no-repeat center fixed;
+  background-size: cover; 
+}
+
+.link {
+  padding: 15px;
+}
+
+.red {
+  font-family: 'Working Man';
+  color: red;
+  font-size: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.current {
+  display: visibile;
+}
+
+.description {
+  margin: 10px auto;
+}
+
+.member-pic {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.album-art {
+  height: auto;
+  width: 300px;
+}
+
+.img-thumbnail {
+  background-color: black;
+  border:1px solid white;
+}
+
+.timeline {
+  margin: 15px;
+  padding:15px;
+}
+
+.jumbotron {
+  background-color:black;
+}
+
+#logo {
+  max-height: 50px;
+}
+
+#header {
+  font-size: 54px;
+  max-width: 325px;
+  margin: 25px auto;
+  border: none;
+}
+
+#page2, #page3, #page4, #page5 {
+  background-color: black;
+  color: white;
+}
+
+#page5 {
+  font-size: 24px;
+  line-height: 2em;
+}
+
+#page5 li {
+  font-size: 16px
+}
+
+@font-face {
+      font-family: 'Working Man';
+      src: url("https://www.2112.net/rushfonts/fonts/WorkingMan.eot"); /* EOT file for IE */
+      src: local('Working Man'), url("https://www.2112.net/rushfonts/fonts/WorkingMan.ttf") format('truetype');  /* TTF file for CSS3 browsers */
+}
